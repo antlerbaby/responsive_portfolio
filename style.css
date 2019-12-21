@@ -34,7 +34,14 @@ html {
 
 
 /*--- About Me Styles --*/
-
+.card-text {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+    font-size: .8rem;
+    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+}
 
 
 /*--- Portfolio Elements --*/
