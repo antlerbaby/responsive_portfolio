@@ -1,14 +1,50 @@
-/*--- Fixed Background Image --*/
+/*--- Header and Navbar Elements --*/
 
 
 
+/*--- Center Card Heading for All Cards--*/
 
 
 
+/*--- About Me Styles --*/
 
 
 
-/*---Media Queries --*/
+/*--- Portfolio Elements --*/
+
+
+
+/*--- Contact Form --*/
+
+
+
+/*--- Footer COMPLETE --*/
+/*Not Needed: 
+.container-line {
+    background-color: #4aaaa5;
+    height: 6px;
+}*/
+.container-footer {
+    background-color: hsl(0, 0%, 40%) ;
+    color: whitesmoke; 
+    border-top: 6px solid #4aaaa5;
+    /*Not Needed: max-width: 960px;*/
+    margin-top: 50px;
+    height: 58px;
+    text-align: center;
+    padding-top: 16px;
+    /*Not Needed: box-sizing: border-box;
+    clear: both;*/
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+/*--- Media Queries --*/
 @media (max-width: 960px) {
     
     }
@@ -40,6 +76,40 @@ Large (lg) devices (desktops, 960px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
+
+/*--- Fixed Background Image - Not sure where to put this at the moment --*/
+figure {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0!important;
+  }
+  .fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  #fixed {
+    background-image: url('images/memphis-mini-dark.png');
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+  }
+  
+/*--- Code for floating background from Drew Ryan Bootstrap 4 Tutorial--*/
+
+
 
 
 
