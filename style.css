@@ -1,5 +1,27 @@
 /*--- Header and Navbar Elements --*/
+.name {
+    padding: .8rem;
+    height: 100%;
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    font-size: 2em;
+}
 
+.navbar {
+    /*padding: .8rem;*/
+    border-bottom: 2px solid #666;
+    background-color: whitesmoke;
+  }
+  
+  .navbar-nav li {
+    padding-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .nav-link {
+    font-size: 1.1em !important;
+  
+  }
 
 
 /*--- Center Card Heading for All Cards--*/
@@ -24,9 +46,11 @@
     background-color: #4aaaa5;
     height: 6px;
 }*/
+
 .container-footer {
     background-color: hsl(0, 0%, 40%) ;
-    color: whitesmoke; 
+    color: whitesmoke;  
+    font-family: Arial, Helvetica, sans-serif;
     border-top: 6px solid #4aaaa5;
     /*Not Needed: max-width: 960px;*/
     margin-top: 50px;
@@ -43,7 +67,6 @@
 }
 
 
-
 /*--- Media Queries --*/
 @media (max-width: 960px) {
     
@@ -51,11 +74,9 @@
   
 @media (max-width: 768px) {
     
-    
     }
   
 @media (max-width: 576px) {
-    
     
     }
 
@@ -77,7 +98,20 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
 
-/*--- Fixed Background Image - Not sure where to put this at the moment --*/
+
+/*--- Fixed Background Image --*/
+body {
+    background-image: url("images/memphis-mini-dark.png");
+    /*=========================================================================
+ This pattern is downloaded from www.toptal.com/designers/subtlepatterns/ 
+ If you need more, that's where to get'em.
+ ========================================================================*/
+    background-color: black;
+    background-attachment: fixed;
+}
+
+
+/*--- Fixed Background Image from Tutorial- not working 
 figure {
     position: relative;
     width: 100%;
@@ -105,7 +139,7 @@ figure {
     -webkit-transform: translateZ(0);
             transform: translateZ(0);
     will-change: transform;
-  }
+  } --*/
   
 /*--- Code for floating background from Drew Ryan Bootstrap 4 Tutorial--*/
 
