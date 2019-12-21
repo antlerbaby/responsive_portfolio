@@ -48,9 +48,10 @@
 }*/
 
 .container-footer {
-    background-color: hsl(0, 0%, 40%) ;
+    background-color: rgb(102, 102, 102) ;
     color: whitesmoke;  
     font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
     border-top: 6px solid #4aaaa5;
     /*Not Needed: max-width: 960px;*/
     margin-top: 50px;
