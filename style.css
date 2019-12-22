@@ -62,7 +62,7 @@ html {
     /*margin: 5% 10% 20% 10%;*/
 
 
-/*--- Portfolio Elements --*/
+/*--- Portfolio Elements COMPLETE--*/
 
 .png {
     /*--- not 100% sure why this works but it 
@@ -72,9 +72,21 @@ html {
 
   .card-title {
       color:white;
+      padding: .6rem 0rem .6rem 0rem;
       background-color: #4aaaa5;
-      margin-top: 55%;
+      opacity: 90%;
+      margin-top: 30%;
+      box-sizing:content-box;
+      font-size: 1rem;
   }
+
+/*.row {
+    box-sizing:content-box;
+} */
+
+.gallery {
+    box-sizing:content-box;
+}
 
 /*--- Contact Form COMPLETE--*/
 .form {
