@@ -69,7 +69,19 @@ html {
 
 /*--- Contact Form --*/
 
+.form {
+    margin-bottom: 1.5rem;
+}
 
+.btn-lg {
+    border-radius: 3px;
+    color:  white;
+    background-color:  #4aaaa5 ;
+}
+
+.btn-lg:hover {
+    color:gainsboro;
+}
 
 /*--- Footer COMPLETE --*/
 /*Not Needed: 
