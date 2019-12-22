@@ -1,3 +1,21 @@
+/*--- CSS Custom Property Variables 
+https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties--*/
+
+:root {
+    --teal: #4aaaa5; /* var(--teal); */
+    --regfont: #777777; /* var(--regfont); */
+    --mainhead: #ffffff; /* var(--mainhead); */
+    --headbord: #cccccc; /* var(--headbord); */
+    --footbg: #666666; /* var(--footbg); */
+    --cardbg: #ffffff; /* var(--cardbg); */
+    --cardbord: #dddddd; /* var(--cardbord); */
+}
+/*--- 
+    syntax:
+    color: var(--blablablah);
+    background-color: var(--blablablah);--*/
+
+
 html {
     font-size: 100%;
     }
