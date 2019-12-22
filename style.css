@@ -64,7 +64,17 @@ html {
 
 /*--- Portfolio Elements --*/
 
+.png {
+    /*--- not 100% sure why this works but it 
+    keeps images inside of div and responsive --*/
+    max-width: 100%;
+  }
 
+  .card-title {
+      color:white;
+      background-color: #4aaaa5;
+      margin-top: 55%;
+  }
 
 /*--- Contact Form COMPLETE--*/
 .form {
@@ -74,7 +84,7 @@ html {
 .btn-lg {
     border-radius: 3px;
     color:  white;
-    background-color:  #4aaaa5 ;
+    background-color:  #4aaaa5;
 }
 
 .btn-lg:hover {
